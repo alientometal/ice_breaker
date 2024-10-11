@@ -1,0 +1,14 @@
+{
+  "configurations": [
+
+    {
+      "name": "Ice Breaker Runner",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
